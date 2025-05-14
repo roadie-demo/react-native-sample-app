@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-native-sample-app
+  title: react-native-sample-app
+  description: An example React Native app 
+  annotations:
+    github.com/project-slug: roadie-demo/react-native-sample-app
+    backstage.io/techdocs-ref: dir:. 
+    
+    
+spec:
+  type: service
+  owner: group:roadie-demo/solutions
+  lifecycle: production
